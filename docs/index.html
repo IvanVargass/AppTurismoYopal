@@ -1,73 +1,215 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-    <!-- Fuente Titulo Izquierdo -->
+    <title>Turismo - Yopal, Casanare</title>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-
+    <!-- Bootstrap core CSS -->
+    <link href="librerias/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
     <!-- Iconos -->
-    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-
-     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-     <link rel="stylesheet" href="css/style_login.css">
-
-    <title>Login - Turismo, Yopal</title>
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Icono de Whatsapp -->
+    <link rel="stylesheet" href="css/whatsapp.css">
+    <!-- Estilos -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet" />
   </head>
+
   <body>
-      <div class="container">
-          <div class="formulario">
-              <div class="row">
-                  <div class="col-md-6">
-                      <div class="contenido-izquierdo">
-                        <form>
-                          <div class="icono-login">
-                            <i class="icon ion-md-contact "></i>
-                          </div>
-                            
-                            <div class="mb-4">
-                              <i class="icon ion-md-person tamaño-icono-1"></i>
-                              <input type="email" class=" estilo_input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Usuario">
-                            </div>
-                            <div class="mb-3">
-                              <i class="icon ion-md-key tamaño-icono-2"></i>
-                              <input type="password" class="estilo_input" id="exampleInputPassword1" placeholder="Contraseña">
-                            </div>
-                            <div style="padding-top: 1.8em;">
-                              <a href="principal.html" class="btn boton-form " >INICIAR SESIÓN</a>
-                            </div>
-                          </form>
-                      </div>
-                  </div>
-                  <div class="col-md-6">
-                      <div class="contenido-derecho">
-                        <div class="box">
-                          <h2 class="titulo-derecho">Bienvenido a Turismo Yopal</h2>
-                          <p class="texto-derecho">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi esse, suscipit odio laboriosam veritatis saepe ut neque minima placeat voluptatum error praesentium, cumque sunt accusamus commodi debitis illum! Minus, in?</p>
-                          
-                        </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
+    <div class="d-flex" id="wrapper">
+      <!-- Sidebar -->
+      <div class="border-right" id="sidebar-wrapper">
+        <div class="sidebar-heading font-weight-bold color-sidebar">
+          <p class="titulo-menu">Turismo</p>
+        </div>
+        <div class="list-group list-group-flush">
+          <a href="#" class="p-3 color-sidebar"
+            ><i class="icon ion-md-home lead mr-2"></i> Inicio</a
+          >
+          <a href="#" class="p-3 color-sidebar"
+            ><i class="icon ion-md-bed lead mr-2"></i> Hoteles</a
+          >
+          <a href="#" class="p-3 color-sidebar"
+            ><i class="icon ion-md-restaurant lead mr-2"></i> Restaurantes</a
+          >
+          <a href="#" class="p-3 color-sidebar"
+            ><i class="icon ion-md-beer lead mr-2"></i> Bares</a
+          >
+          <a href="#" class="p-3 color-sidebar"
+            ><i class="icon ion-md-map lead mr-2"></i> Sitios Turísticos</a
+          >
+          <a href="#" class="p-3 color-sidebar"
+            ><i class="icon ion-md-pin lead mr-2"></i> Ubicación Actual</a
+          >
+        </div>
       </div>
+      <!-- /#sidebar-wrapper -->
 
-    <!-- Optional JavaScript; choose one of the two! -->
+      <!-- Page Content -->
+      <div id="page-content-wrapper" class="content">
+        <nav class="navbar navbar-expand-lg" style="background: #000">
+          <button class="btn" id="menu-toggle">
+            <i class="icon ion-md-apps lead mr-2"></i>Menú
+          </button>
+        </nav>
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <div class="container-fluid contenido-sitio">
+          <div class="row">
+            <div class="col-md-12 py-4">
+              <h1 class="titulo-sitio text-center">Descubre a Yopal</h1>
+              <h6 class="subtitulo-sitio text-center">
+                "Te ofrecemos las mejores recomendaciones de los llanos
+                orientales".
+              </h6>
+            </div>
+          </div>
+          <div class="cards row">
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="img/food-box.jpg"
+                  alt="Card image cap"
+                  class="img-fluid"
+                  alt="Responsive image"
+                />
+                <div class="card-body">
+                  <h5 class="card-title titulo">FoodBox Burger</h5>
+                  <div>
+                    <i class="icon ion-md-star estrella"></i>
+                    <i class="icon ion-md-star estrella"></i>
+                    <i class="icon ion-md-star estrella"></i>
+                    <i class="icon ion-md-star estrella"></i>
+                    <i class="icon ion-md-star estrella"></i>
+                  </div>
+                  <p class="card-text">
+                    Te ofrecemos las mejores hamburguesas de los llanos orientales.
+                  </p>
+                  <a href="#" class="btn btn-card">Ver más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="img/new-york.jpg"
+                  alt="Card image cap"
+                  class="img-fluid"
+                  alt="Responsive image"
+                />
+                <div class="card-body">
+                  <h5 class="card-title titulo">New York Pizza</h5>
+                  <div>
+                    <i class="icon ion-md-star estrella"></i>
+                    <i class="icon ion-md-star estrella"></i>
+                    <i class="icon ion-md-star estrella"></i>
+                    <i class="icon ion-md-star estrella"></i>
+                  </div>
+                  <p class="card-text">
+                    Ven a disfrutar de las mejores pizzas de Yopal, no te arrepentiras de visitarnos.
+                  </p>
+                  <a href="#" class="btn btn-card">Ver más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="img/bar.jpg"
+                  alt="Card image cap"
+                  class="img-fluid"
+                  alt="Responsive image"
+                />
+                <div class="card-body">
+                  <h5 class="card-title titulo">Mozza</h5>
+                  <div>
+                    <i class="icon ion-md-star estrella"></i>
+                    <i class="icon ion-md-star estrella"></i>
+                    <i class="icon ion-md-star estrella"></i>
+                    <i class="icon ion-md-star estrella"></i>
+                    <i class="icon ion-md-star estrella"></i>
+                  </div>
+                  <p class="card-text">
+                    En Mozza sabemos que extrañas el sabor de un buen coctel, por eso ven y visitanos.
+                  </p>
+                  <a href="#" class="btn btn-card">Ver más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="img/llano.jpg"
+                  alt="Card image cap"
+                  class="img-fluid"
+                  alt="Responsive image"
+                />
+                <div class="card-body">
+                  <h5 class="card-title titulo">Llano a dentro</h5>
+                  <div>
+                    <i class="icon ion-md-star estrella"></i>
+                    <i class="icon ion-md-star estrella"></i>
+                    <i class="icon ion-md-star estrella"></i>
+                    <i class="icon ion-md-star estrella"></i>
+                    <i class="icon ion-md-star estrella"></i>
+                  </div>
+                  <p class="card-text">
+                    Medite al atardecer, mirando las estrellas y acariciando a su perro, es un remedio infalible.
+                  </p>
+                  <a href="#" class="btn btn-card">Ver más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-    -->
+    <!-- Icono de Whatsapp -->
+    <a href="https://api.whatsapp.com/send?phone=+573224717717" class="btn-whatsapp">
+      <i class="icon-whatsapp"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="librerias/jquery/jquery.min.js"></script>
+    <script src="librerias/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/javascript.js"></script>
   </body>
 </html>
