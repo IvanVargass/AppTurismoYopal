@@ -1,8 +1,4 @@
 
-.color-sidebar{
-  color: #000;
-}
-
 #sidebar-wrapper {
   min-height: 100vh;
   margin-left: -15rem;
@@ -24,15 +20,9 @@
   font-size: 1.1rem;
 }
 
-#sidebar-wrapper .list-group a:hover {
-  text-decoration: none;
-  color: #000000;
-}
-
 #sidebar-wrapper .list-group a i {
   font-size: 28px;
 }
-
 
 #page-content-wrapper {
   min-width: 100vw;
