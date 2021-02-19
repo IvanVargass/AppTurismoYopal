@@ -1,0 +1,178 @@
+#wrapper {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+.btnh{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  margin-bottom: 1em;
+  text-decoration: none;
+  color: #000;
+  
+}
+
+.btn-siderbar:hover{
+  padding-left: 1.6em;
+  color: #000;
+  text-decoration: none;
+  background-color: #FFBD53;
+  transition-duration: 0.5s;
+}
+
+.btnh-active{
+  padding-left: 1.6em;
+  text-decoration: none;
+  background-color: #FFBD53;
+  transition-duration: 0.5s;
+}
+
+/* Estilos Menú Superior */
+
+.titulo-menu {
+  font-family: "Lobster", sans-serif;
+  font-size: 1.2em;
+}
+
+.navbar button {
+  color: #fff;
+  border-color: #000;
+}
+
+.navbar button:hover {
+  color: #fff;
+  border-color: #000;
+}
+
+.navbar{
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+
+/* Estilos Icono de Whatsapp */
+
+.btn-whatsapp{
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: #0df053;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+@media all and (max-width: 500px) {
+  .btn-whatsapp {
+    bottom: 18px;
+    right: 18px;
+  }
+}
+
+.btn-whatsapp:hover {
+  text-decoration: none;
+  color: #0df053;
+  background: #fff;
+}
+
+/* Estilos sección de hoteles */
+
+.card-title{
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.boton-hotel, .boton-hotel:hover{
+  margin-top: 1em;
+  border-radius: 25px;
+  padding: 5px 20px;
+  font-size: 14PX;
+  background: #F7AC35;
+  color: #fff;
+  font-weight: 500;
+  -webkit-box-shadow: 2px 2px 5px rgba(182, 178, 178, 0.815);
+  -moz-box-shadow: 2px 2px 5px rgba(182, 178, 178, 0.815);
+}
+
+.icono-card{
+  font-size: 28px;
+}
+
+.estrella{
+  font-size: 1.3em;
+  color: #F7AC35;
+}
+
+/* Adaptación de sección muebles para diferentes tamaños de pantalla */
+
+@media all and (max-width: 500px) {
+.tarjeta{
+    border: #CACACA 1px solid;
+    border-radius: 8px;
+    margin-top: 2.5em; 
+    margin-left: 1.3em;
+    margin-right: 1.3em;
+    margin-bottom: 3em;
+    transform: translate(-50%, -50%);
+  }
+
+  .imagenes-card{
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .card-body{
+    margin-top: 0.5em;
+    padding-bottom: 2em;
+  }
+
+  .card-text{
+    margin-top: 1em;
+  }
+  
+  .boton-hotel{
+    margin-top: 1em;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .tarjeta{
+    border: #CACACA 1px solid;
+    border-radius: 8px;
+    margin-top: 2.5em; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 62em;
+    margin-bottom: 2.5em;
+  }
+
+  .imagenes-card{
+    width: 420px;
+    height: 310px;
+  }
+}
+
+@media all and (min-width: 1401px) {
+  .tarjeta{
+    border: #CACACA 1.5px solid;
+    border-radius: 8px;
+    margin-top: 2.5em; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    max-width: 73em;
+  }
+
+  .imagenes-card{
+    width: 450px;
+    height: 300px;
+  }
+}
