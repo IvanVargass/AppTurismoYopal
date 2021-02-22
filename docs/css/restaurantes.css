@@ -161,6 +161,8 @@
   }
 
   .cuadro-superior{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url('../Restaurantes/img/1.jpg');
+    background-position: -13em;
     height: 70%;
   }
 
