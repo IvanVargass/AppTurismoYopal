@@ -91,6 +91,7 @@
 }
 
 .boton-hotel, .boton-hotel:hover{
+  text-decoration: none;
   margin-top: 1em;
   border-radius: 25px;
   padding: 5px 20px;
@@ -129,8 +130,8 @@
 }
 
 .imagen-comidas{
-  width: 200px;
-  height: 250px;
+  width: 250px;
+  height: 335px;
 }
 
 .titulo-card{
@@ -172,8 +173,12 @@
   }
 
   .imagen-comidas{
-    
     height: 22em;
     width: 22em;
   }
+
+  .espacio-card{
+    margin-bottom: 1.4em;
+  }
+
 }
